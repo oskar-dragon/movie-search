@@ -20,9 +20,9 @@ export default function MovieSearch() {
 
   const handleChagne = e => setQuery(e.target.value);
 
-  const moviesCardComponents = movies.map(movie => (
-    <MovieCard key={movie.id} data={movie} />
-  ));
+  const moviesCardComponents = movies
+    .filter(movie => movie.poster_path)
+    .map(movie => <MovieCard key={movie.id} data={movie} />);
 
   return (
     <>
