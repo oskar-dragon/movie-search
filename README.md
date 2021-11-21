@@ -1,4 +1,6 @@
 # Movie Search
+> Try to find your favourite movie
+> Live demo [_here_](https://oskar-dragon.github.io/movie-search/).
 
 ## Table of Contents
 
@@ -8,7 +10,6 @@
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
 - [Acknowledgements](#acknowledgements)
-<!-- * [License](#license) -->
 
 ## General Information
 
@@ -34,7 +35,7 @@ Room for improvement:
 
 To do:
 
-- Stretch image so it fits parent's height (excluding padding)
+- [ ]  Stretch image so it fits parent's height (excluding padding)
 
 ## Acknowledgements
 
